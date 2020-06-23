@@ -16,7 +16,8 @@
 
 	.main-nav
 	h1 {
-		text-align: center;
+        text-align: center;
+        font-family: 'Philosopher', sans-serif;
 	}
 
 	.main-nav 
@@ -219,11 +220,18 @@
         font-size: 28px;
     }
 
+    .main-nav
+    h1 {
+        display: inline-block;
+        white-space: nowrap;
+    }
+
     .main-nav ul {
         flex-direction: row;
         margin-top: 18px;
         padding-top: 10px;
-    
+        margin-left: 700px;
+        height: 40px;
     }
 
 

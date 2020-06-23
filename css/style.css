@@ -21,7 +21,7 @@ li {
 	padding-right: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
-
+	font-family: 'Heebo', sans-serif;
 }
 
 li a {
@@ -32,6 +32,11 @@ li a {
 	display: flex;
 	justify-content: space-between;
 	text-transform: capitalize;
+}
+
+.main-nav
+h1 {
+	font-family: 'Philosopher', sans-serif;
 }
 
 /***********************************
@@ -72,6 +77,7 @@ main img {
 	text-align: center;
 	text-transform: uppercase;
 	margin-top: 5px;
+	font-family: 'Philosopher', sans-serif;
 
 }
 
@@ -96,10 +102,16 @@ main img {
 
 footer h3 {
 	text-transform: uppercase;
+	font-family: 'Philosopher', sans-serif;
+	
 }
 .footer {
 	width: 45%;
 	margin: 0 auto;
 	text-align: center;
-}
+}	
 
+.other-footer 
+h1 {
+	font-family: 'Philosopher', sans-serif;
+}
